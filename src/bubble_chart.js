@@ -11,7 +11,7 @@
 function bubbleChart() {
   // Constants for sizing
   var width = 900;
-  var height = 300;
+  var height = 320;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('OFC_tooltip', 240);
@@ -36,9 +36,10 @@ function bubbleChart() {
   // Sizes bubbles based on their area instead of raw radius
   // var radiusScale = d3.scale.linear()
   //   .domain([0, 20]).range([10, 200]);
-  var radiusScale = d3.scalePow()
-    .exponent(0.5)
-    .range([2, 85]);
+
+    var radiusScale = d3.scaleLinear()
+        // .exponent(0.5)
+        .range([0.5, 2]);
 
   /*
    * This data manipulation function takes the raw data from
@@ -56,22 +57,14 @@ function bubbleChart() {
     // Use map() to convert raw data into node data.
     // Checkout http://learnjsdata.com/ for more on
     // working with data.
-    // var myNodes = rawData.map(function (d) {
-    //   return {
-    //     id: d.id,
-    //     radius: radiusScale(+d.total_amount),
-    //     value: d.total_amount,
-    //     name: d.grant_title,
-    //     org: d.organization,
-    //     group: d.group,
-    //     year: d.start_year,
-    //     x: Math.random() * 900,
-    //     y: Math.random() * 800
-    //   };
-    // });
-    var radiusScale = d3.scalePow()
-        .exponent(0.5)
-        .range([4, 12]);
+    // Sizes bubbles based on their area instead of raw radius
+  // var radiusScale = d3.scale.linear()
+  //   .domain([0, 20]).range([10, 200]);
+
+    var radiusScale = d3.scaleLinear()
+        // .exponent(0.5)
+        .range([0.1, 2]);
+  
     var re = /^([^.]*)/;
     var myNodes = rawData.map(function (d) {
       return {
@@ -139,7 +132,7 @@ function isolate(force, filter) {
       .text(function (d) { return d; });
 
     var simulation = d3.forceSimulation()
-            .force("collide",d3.forceCollide( function(d){return d.radius + 1 }).iterations(30) )
+            .force("collide",d3.forceCollide( function(d){return d.radius + 1 }).iterations(50) )
             .force("charge", d3.forceManyBody())
             .force("Th5A", isolate(d3.forceX(width / 4), function(d) { return d.group === "Th5A"; }))
             .force("Th5B", isolate(d3.forceX(2*(width / 4)), function(d) { return d.group === "Th5B"; }))
@@ -163,14 +156,16 @@ function isolate(force, filter) {
       .attr('stroke', function (d) { return d3.rgb(fillColor(d.group)).darker(); })
       .attr('stroke-width', 2)
       .on('mouseover', showDetail)
-      .on('mouseout', hideDetail);;
+      .on('mouseout', hideDetail);
     // node.append("title")
     //   .text(function(d) { return '# cites: ' + d.citations.toString() ; });
     node.append("text")
       .attr("dy", 0)
       .attr("dx", -4)
       .attr('fill',"black")
-      .text(function(d) { return d.citations; });
+      .text(function(d) { return d.citations; })
+      .on('mouseover', showDetail)
+      .on('mouseout', hideDetail);
     
     var ticked = function() {
       node.attr("transform", function(d) { return "translate(" + d.x + ", " + d.y + ")"; });
