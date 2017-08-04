@@ -1,0 +1,606 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "release": "1.6.100",
+    "preferences": {
+      "asciiBibLaTeX": false,
+      "asciiBibTeX": true,
+      "attachmentsNoMetadata": false,
+      "autoAbbrevStyle": "",
+      "autoAbbrev": false,
+      "autoExport": "idle",
+      "autoExportIdleWait": 10,
+      "cacheFlushInterval": 5,
+      "confirmCacheResetSize": 1000,
+      "itemObserverDelay": 100,
+      "caching": true,
+      "citeCommand": "cite",
+      "citekeyFormat": "[zotero]",
+      "citekeyFold": true,
+      "debug": false,
+      "DOIandURL": "both",
+      "bibtexURL": "off",
+      "csquotes": "",
+      "keyConflictPolicy": "keep",
+      "langID": "babel",
+      "pinCitekeys": "manual",
+      "preserveBibTeXVariables": false,
+      "rawImports": false,
+      "scanCitekeys": false,
+      "showCitekeys": false,
+      "showItemIDs": false,
+      "skipFields": "",
+      "skipWords": "a,ab,aboard,about,above,across,after,against,al,along,amid,among,an,and,anti,around,as,at,before,behind,below,beneath,beside,besides,between,beyond,but,by,d,da,das,de,del,dell,dello,dei,degli,della,dell,delle,dem,den,der,des,despite,die,do,down,du,during,ein,eine,einem,einen,einer,eines,el,en,et,except,for,from,gli,i,il,in,inside,into,is,l,la,las,le,les,like,lo,los,near,nor,of,off,on,onto,or,over,past,per,plus,round,save,since,so,some,sur,than,the,through,to,toward,towards,un,una,unas,under,underneath,une,unlike,uno,unos,until,up,upon,versus,via,von,while,with,within,without,yet,zu,zum",
+      "tests": "",
+      "warnBulkModify": 10,
+      "postscript": "",
+      "jabrefGroups": 4,
+      "defaultDateParserLocale": "",
+      "bibtexParticleNoOp": false,
+      "biblatexExtendedNameFormat": false,
+      "biblatexExtendedDateFormat": false,
+      "quickCopyMode": "latex",
+      "quickCopyPandocBrackets": false,
+      "jurismPreferredLanguage": "zh-alalc97",
+      "ZotFile": true,
+      "qualityReport": false,
+      "suppressTitleCase": false
+    },
+    "options": {
+      "exportPath": "C:\\Users\\santiagoe\\Dropbox\\Data visualization course\\Assignment2\\Relational_visualization\\data",
+      "exportFilename": "OFC-2016-Th5B.6.json",
+      "exportFileData": false,
+      "exportNotes": false
+    }
+  },
+  "collections": [],
+  "items": [
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Fiber optics and optical communications",
+        "Optical communications"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.1",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.1",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.1",
+      "abstractNote": "A dynamically reconfigurable TDM-DWDM PON for converged multi-services at the physical layer (10G, 100G and wireless fronthaul) has been demonstrated for the first time implementing end-to-end SDN management of the access and core network elements.",
+      "title": "Demonstration of SDN Enabled Dynamically Reconfigurable High Capacity Optical Access for Converged Services",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Talli",
+          "firstName": "Giuseppe"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Porto",
+          "firstName": "Stefano"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Carey",
+          "firstName": "Daniel"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Brandonisio",
+          "firstName": "Nicola"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Naughton",
+          "firstName": "Alan"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ossieur",
+          "firstName": "Peter"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Slyne",
+          "firstName": "Frank"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "McGettrick",
+          "firstName": "Séamas"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Blum",
+          "firstName": "Christian"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ruffini",
+          "firstName": "Marco"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Payne",
+          "firstName": "David"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Bonk",
+          "firstName": "Rene"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Pfeiffer",
+          "firstName": "Thomas"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Parsons",
+          "firstName": "Nick"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Townsend",
+          "firstName": "Paul"
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 4,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "talli_demonstration_2016"
+    },
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Modulation",
+        "Networks",
+        "packet-switched"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.2",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.2",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.2",
+      "abstractNote": "Cognitive SDN orchestration over 400-Gbps OPS and Tbps-class Flexi-WDM networks is demonstrated, where the SDN-controllable OFDM transponders and the extended transport API enable the congestion-aware provisioning of end-to-end real-time services.",
+      "title": "First Demonstration of Cognitive SDN Orchestration: A Real-time Congestion-aware Services Provisioning over OFDM-based 400G OPS and Flexi-WDM OCS Networks",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Yoshida",
+          "firstName": "Yuki"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kitayama",
+          "firstName": "Ken-Ichi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kai",
+          "firstName": "Yutaka"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Nishihara",
+          "firstName": "Masato"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Okabe",
+          "firstName": "Ryo"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Tanaka",
+          "firstName": "Toshiki"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Takahara",
+          "firstName": "Tomoo"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Rasmussen",
+          "firstName": "Jens C."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Yoshikane",
+          "firstName": "Noboru"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Cao",
+          "firstName": "Xiaoyuan"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Tsuritani",
+          "firstName": "Takehiro"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Morita",
+          "firstName": "Itsuro"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Lerma",
+          "firstName": "Arturo Mayoral López de"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Fabrega",
+          "firstName": "Josep"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Vilalta",
+          "firstName": "Ricard"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Casellas",
+          "firstName": "Ramon"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Martínez",
+          "firstName": "Ricardo"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Moreolo",
+          "firstName": "Michela S."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Muñoz",
+          "firstName": "Raul"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Habel",
+          "firstName": "Kai"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Freund",
+          "firstName": "Ronald"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Lopez",
+          "firstName": "Victor"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Aguado",
+          "firstName": "Alejandro"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Yan",
+          "firstName": "Shuangyi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Simeonidou",
+          "firstName": "Dimitra"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Szyrkowiec",
+          "firstName": "Thomas"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Autenrieth",
+          "firstName": "Achim"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Shiraiwa",
+          "firstName": "Masaki"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Awaji",
+          "firstName": "Yoshinari"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Wada",
+          "firstName": "Naoya"
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 5,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "yoshida_first_2016"
+    },
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Fiber optics communications",
+        "Semiconductor lasers"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.3",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.3",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.3",
+      "abstractNote": "Using a lumped-electrode EADFB laser with a modulation bandwidth of 59 GHz, we demonstrated single-wavelength single-polarization direct-detection 4-PAM transmission with the record net data rate of 200 Gbit/s.",
+      "title": "Transmission of 214-Gbit/s 4-PAM signal using an ultra-broadband lumped-electrode EADFB laser module",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Kanazawa",
+          "firstName": "Shigeru"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Yamazaki",
+          "firstName": "Hiroshi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Nakanishi",
+          "firstName": "Yasuhiko"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Fujisawa",
+          "firstName": "Takeshi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Takahata",
+          "firstName": "Kiyoto"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ueda",
+          "firstName": "Yuta"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kobayashi",
+          "firstName": "Wataru"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Muramoto",
+          "firstName": "Yoshifumi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ishii",
+          "firstName": "Hiroyuki"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Sanjoh",
+          "firstName": "Hiroaki"
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 6,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "kanazawa_transmission_2016"
+    },
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Optical communications",
+        "Semiconductor lasers"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.4",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.4",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.4",
+      "abstractNote": "A short-cavity distributed reflector (DR) laser achieved a 3-dB BW of 55 GHz. The DR laser was used to demonstrate single-channel 112-Gb/s PAM-4 transmission without pre-emphasis.",
+      "title": "55-GHz Bandwidth Short-Cavity Distributed Reflector Laser and its Application to 112-Gb/s PAM-4",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Matsui",
+          "firstName": "Yasuhiro"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Pham",
+          "firstName": "Thang"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ling",
+          "firstName": "William"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Schatz",
+          "firstName": "Richard"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Carey",
+          "firstName": "Glen"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Daghighian",
+          "firstName": "Henry"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Sudo",
+          "firstName": "Tsurugi"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Roxlo",
+          "firstName": "Charles"
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 7,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "matsui_55-ghz_2016"
+    },
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Fiber optics communications",
+        "Vertical cavity surface emitting lasers"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.5",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.5",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.5",
+      "abstractNote": "First time successful 107.5 Gb/s MultiCAP 850 nm OM4 MMF transmissions over 10 m with multi-mode VCSEL and up to 100 m with single-mode VCSEL are demonstrated, with BER below 7% overhead FEC limit measured for each case.",
+      "title": "107.5 Gb/s 850 nm multi- and single-mode VCSEL transmission over 10 and 100 m of multi-mode fiber",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Puerta",
+          "firstName": "Rafael"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Agustin",
+          "firstName": "Mikel"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Chorchos",
+          "firstName": "Lukasz"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Tonski",
+          "firstName": "J."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Kropp",
+          "firstName": "J.-R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ledentsov",
+          "firstName": "N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Shchukin",
+          "firstName": "V. A."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Ledentsov",
+          "firstName": "N. N."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Henker",
+          "firstName": "R."
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Monroy",
+          "firstName": "Idelfonso Tafur"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Olmos",
+          "firstName": "Juan José Vegas"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Turkiewicz",
+          "firstName": "J. P."
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 8,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "puerta_107.5_2016"
+    },
+    {
+      "itemType": "conferencePaper",
+      "tags": [
+        "Networks",
+        "wavelength routing"
+      ],
+      "relations": {},
+      "url": "http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th5B.6",
+      "publisher": "Optical Society of America",
+      "pages": "Th5B.6",
+      "date": "2016",
+      "DOI": "10.1364/OFC.2016.Th5B.6",
+      "abstractNote": "We present DFabric, a 12-rack, 180-server DCN using multiwavelength switching and interconnection. DFabric implements real-time network traffic and per-link utilization monitoring, and full-stack optimization by jointly optimizing optical switching and network flow routing.",
+      "title": "A 12-Rack, 180-Server Datacenter Network (DCN) Using Multiwavelength Optical Switching and Full Stack Optimization",
+      "proceedingsTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "lastName": "Wei",
+          "firstName": "Da"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Xu",
+          "firstName": "Lei"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Jin",
+          "firstName": "Xin"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Li",
+          "firstName": "Yiran"
+        },
+        {
+          "creatorType": "author",
+          "lastName": "Xu",
+          "firstName": "Wei"
+        }
+      ],
+      "attachments": [],
+      "notes": [],
+      "itemID": 9,
+      "publicationTitle": "Optical Fiber Communication Conference Postdeadline Papers",
+      "seeAlso": [],
+      "__citekey__": "wei_12-rack_2016"
+    }
+  ],
+  "cache": {}
+}

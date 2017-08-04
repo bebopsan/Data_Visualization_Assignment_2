@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style> /* set the CSS */
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1,h2,h3,h4,h5,h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
+<head>
+  <title>Data Visualization Course: Assignment 2</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+      <!-- load the d3.js library -->    
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+
+<body>
+    <!-- Navbar (sit on top) -->
+<nav class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item">Assignment 2 </a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a class="w3-bar-item">sanec@fotonik.dtu.dk</a>
+    </div>
+  </div>
+
+</nav>
+<!-- Header -->
+<header class="w3-container w3-center" style="max-width:1600px;min-width:500px" id="home">
+    <!-- <div class="w3-display-bottomleft w3-padding-large" style="color:black"> -->
+    <div class="w3-content w3-center" style="margin-top:60px" >
+        <h1 class="w3-xxlarge"> Visualization of relational data</h1>
+    </div>
+    <!-- </div> -->
+</header>
+<!-- Page content -->
+<div class="w3-content" >
+
+    <!-- load data--> 
+    <script src="data/OFC-2016-Th5A.6.js"></script>
+
+    <div class="w3-row w3-padding" id="intro">
+        <p>
+      <h2> About the data </h2> 
+
+    This data visualization example is based on publications from the <a href= "https://www.osapublishing.org/conference.cfm?meetingid=5&amp;yr=2016"> postdeadline sessions</a> (Th5A, Th5B, Th5C) of the Optical Fiber Communications (OFC) conference held on 2016. 
+    </p>
+    <p>
+    Postdeadline submissions are not an opportunity to submit a paper after the published deadline, but are intended to provide those with late-breaking work an opportunity to submit that work for consideration. Postdeadline submissions should describe new and significant material in rapidly advancing areas. A limited number of postdeadline submissions will be selected for presentation, and only those papers judged to be truly excellent and compelling in their timeliness will be accepted <a href= "http://www.osa.org/en-us/help/faqs/answers/what_is_the_difference_between_a_postdeadline_subm/"> [1] </a>.
+    </p>
+    <p class = 'w3-justify'>
+    The idea is to visualize the impact of the high quality research from the number of citations, in an interactive way using circles. The size of the circles indicates the numer of times that the procedings paper has been cited, and the group to which the circle belongs indicates the session. More information on the paper can be obtained on demand by hovering the mouse over the circle or clicking on it.
+    </p>
+    </div>
+    <div class= "container">
+      <div id="vis"></div>
+    </div>
+    <div class="w3-row" id="instructions">
+        <p>
+          <h2> Basic use instructions </h2>  
+        
+        <ul>
+            <li>Hover over the circles to get a tooltip with key information about each paper.</li>
+            <li>Hold Ctr and click on a circle to get redirected to the Url of OSA where the file can be downloaded. </li>
+        </ul>
+        </p>
+    </div>
+<!-- End page content -->
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script src="src/tooltip.js"></script>
+<script src="src/bubble_chart.js"></script>
+
+</body>
+</html>
